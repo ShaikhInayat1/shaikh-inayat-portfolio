@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shaikh Inayat — Backend Developer &amp; B.Tech CSE Student</title>
+  <meta name="description" content="Portfolio of Shaikh Inayat, a backend developer building scalable Python and FastAPI systems, REST APIs and data-driven tools." />
+  <meta property="og:title" content="Shaikh Inayat — Backend Developer &amp; B.Tech CSE Student" />
+  <meta property="og:description" content="Portfolio of Shaikh Inayat, a backend developer building scalable Python and FastAPI systems, REST APIs and data-driven tools." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <a href="#home" class="logo">SI<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="badge"><span class="dot"></span> Open to backend internships</p>
+        <h1>Hi, I'm <span class="accent">Shaikh</span> Inayat<span class="cursor">|</span></h1>
+        <p class="lead">I build scalable server-side systems with Python and FastAPI — clean 3-tier architecture, well-designed REST APIs and data structures tuned for performance.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-frame">
+          <img src="assets/profile-photo.jpg" alt="Shaikh Inayat" onerror="this.style.display='none'" />
+          <span class="photo-fallback" aria-hidden="true">SI</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <p class="eyebrow">About me</p>
+      <h2>Engineering-first, architecture-minded.</h2>
+      <p class="sub">I care about systems that stay readable as they grow.</p>
+
+      <div class="about-grid">
+        <div>
+          <p>I'm a B.Tech Computer Science and Engineering student focused on backend development. My work centres on scalable server-side systems: strong Object-Oriented design, clean 3-tier architecture, and a strict separation between API, service and data layers.</p>
+          <p>Algorithmic problem-solving is the part I enjoy most — profiling a slow path, choosing the right data structure, and watching a route drop from hundreds of milliseconds to single digits. That habit carries into everything I ship: typed request models, predictable errors, and schemas designed before code.</p>
+          <div class="facts">
+            <div><span>Core stack</span><strong>Python · FastAPI</strong></div>
+            <div><span>Focus</span><strong>Scalable APIs</strong></div>
+            <div><span>Graduating</span><strong>2027</strong></div>
+          </div>
+        </div>
+
+        <ol class="timeline">
+          <li>
+            <span class="when">Ongoing · Graduating 2027</span>
+            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+            <p class="where">Shushila Devi Bansal College Of Technology</p>
+            <p>Core coursework in data structures, algorithms, DBMS and computer networks, backed by hands-on backend projects.</p>
+          </li>
+          <li>
+            <span class="when">Ongoing</span>
+            <h3>Backend engineering, self-directed</h3>
+            <p class="where">Python · FastAPI · PostgreSQL</p>
+            <p>Building REST APIs with validated schemas, layered service design and measurable performance wins.</p>
+          </li>
+          <li class="next">
+            <span class="when">Next milestone</span>
+            <p>A backend internship where I can own real services.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <p class="eyebrow">Technical arsenal</p>
+      <h2>The toolkit behind the systems.</h2>
+      <p class="sub">Grouped the way I actually use them — language, service layer, data, storage, fundamentals.</p>
+
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <ul class="chips"><li>Python</li><li>Java</li><li>SQL</li></ul>
+        </div>
+        <div class="card">
+          <h3>Backend &amp; APIs</h3>
+          <ul class="chips"><li>FastAPI</li><li>Pydantic</li><li>Uvicorn</li><li>REST APIs</li><li>CRUD</li></ul>
+        </div>
+        <div class="card">
+          <h3>Data Analysis</h3>
+          <ul class="chips"><li>NumPy</li><li>Pandas</li><li>Matplotlib</li><li>Seaborn</li></ul>
+        </div>
+        <div class="card">
+          <h3>Databases</h3>
+          <ul class="chips"><li>MySQL</li><li>PostgreSQL</li></ul>
+        </div>
+        <div class="card">
+          <h3>Core Concepts</h3>
+          <ul class="chips"><li>DSA</li><li>OOP</li><li>DBMS</li><li>Computer Networks</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <p class="eyebrow">Specialized services</p>
+      <h2>What I can build for you.</h2>
+      <p class="sub">Three things I do well, end to end.</p>
+
+      <div class="services-grid">
+        <article class="card">
+          <h3>Backend Development</h3>
+          <p>Robust, scalable server-side applications with clean layered architecture, OOP design and predictable error handling.</p>
+        </article>
+        <article class="card">
+          <h3>REST API Design</h3>
+          <p>Efficient, secure endpoints built with FastAPI and Pydantic — versioned routes, validated payloads and documented contracts.</p>
+        </article>
+        <article class="card">
+          <h3>Data Analysis</h3>
+          <p>Data processing and visualization in Python — cleaning with Pandas/NumPy, then clear charts with Matplotlib and Seaborn.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <p class="eyebrow">Featured projects</p>
+      <h2>Systems I've designed and shipped.</h2>
+      <p class="sub">Two builds that show how I think about logic, data and structure.</p>
+
+      <div class="projects-grid">
+        <article class="card project">
+          <p class="tag">Algorithmic optimization</p>
+          <h3>Delivery Routing Simulation</h3>
+          <p>A simulation that models delivery networks as weighted graphs and computes optimal routes under load. Focused on shortest-path logic, complexity trade-offs and measurable performance tuning across thousands of nodes.</p>
+          <ul class="bullets">
+            <li>Graph traversal &amp; shortest paths</li>
+            <li>Profiling-driven optimization</li>
+          </ul>
+          <ul class="chips"><li>Python</li><li>DSA</li><li>NumPy</li><li>Matplotlib</li></ul>
+          <a class="link" href="https://github.com/ShaikhInayat1" target="_blank" rel="noopener">View Source ↗</a>
+        </article>
+
+        <article class="card project">
+          <p class="tag">Backend &amp; data integrity</p>
+          <h3>Bank Management System</h3>
+          <p>A banking backend with account lifecycle, transactions and statements. Built on a 3-tier architecture with robust CRUD operations, transactional safety and a normalized relational schema.</p>
+          <ul class="bullets">
+            <li>Secure database management</li>
+            <li>Robust CRUD &amp; validation</li>
+          </ul>
+          <ul class="chips"><li>Python</li><li>FastAPI</li><li>MySQL</li><li>OOP</li></ul>
+          <a class="link" href="https://github.com/ShaikhInayat1" target="_blank" rel="noopener">View Source ↗</a>
+        </article>
+      </div>
+
+      <h3 class="subhead">All repositories on GitHub</h3>
+      <div class="repos-grid">
+        <a class="card repo" href="https://github.com/ShaikhInayat1/student-management-api" target="_blank" rel="noopener">
+          <h3>student-management-api</h3>
+          <p>A RESTful Student Management API built with Python, FastAPI and Pydantic — CRUD operations, data validation, result calculation, grading, search, sorting, statistics and JSON-based persistence.</p>
+          <span class="lang">Python</span>
+        </a>
+        <a class="card repo" href="https://github.com/ShaikhInayat1/resume_lens" target="_blank" rel="noopener">
+          <h3>resume_lens</h3>
+          <p>Lightweight resume parsing API that extracts and validates structured candidate data from PDF and DOCX files using FastAPI, Pydantic, pdfplumber and python-docx.</p>
+          <span class="lang">Python</span>
+        </a>
+        <a class="card repo" href="https://github.com/ShaikhInayat1/pandas-analytics" target="_blank" rel="noopener">
+          <h3>pandas-analytics</h3>
+          <p>A collection of data analysis and numerical computing workflows built with Pandas and NumPy — data manipulation, transformation, exploration and efficient computation.</p>
+          <span class="lang">Jupyter Notebook</span>
+        </a>
+        <a class="card repo" href="https://github.com/ShaikhInayat1/DSA---Interview---Prep" target="_blank" rel="noopener">
+          <h3>DSA---Interview---Prep</h3>
+          <p>LeetCode solutions for coding-interview prep, organised by topic (arrays, strings, two pointers, sliding window, DP and more). 247 commits.</p>
+          <span class="lang">Java</span>
+        </a>
+        <a class="card repo" href="https://github.com/ShaikhInayat1/J2SE-Minor-Projects" target="_blank" rel="noopener">
+          <h3>J2SE-Minor-Projects</h3>
+          <p>Minor projects built with core Java (J2SE) while learning the language fundamentals.</p>
+          <span class="lang">Java</span>
+        </a>
+        <a class="card repo" href="https://github.com/ShaikhInayat1/ShaikhInayat1" target="_blank" rel="noopener">
+          <h3>ShaikhInayat1</h3>
+          <p>My GitHub profile README — B.Tech CSE student learning ML and Data Science with Python, SQL, PostgreSQL, NumPy and Pandas.</p>
+          <span class="lang">Profile README</span>
+        </a>
+      </div>
+      <p class="more"><a class="link" href="https://github.com/ShaikhInayat1?tab=repositories" target="_blank" rel="noopener">See every repository on GitHub ↗</a></p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's build something solid.</h2>
+      <p class="sub">Open to backend internships, API work and freelance projects.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="card small">
+            <span>Email</span>
+            <a href="mailto:shaikhinayat.cs@gmail.com">shaikhinayat.cs@gmail.com</a>
+          </div>
+          <div class="card small">
+            <span>Phone</span>
+            <a href="tel:+916261639716">+91 6261639716</a>
+          </div>
+          <div class="card small">
+            <span>GitHub</span>
+            <a href="https://github.com/ShaikhInayat1" target="_blank" rel="noopener">github.com/ShaikhInayat1</a>
+          </div>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <label>Your name
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>Email address
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" required placeholder="Tell me about your project or role"></textarea>
+          </label>
+          <button type="submit" class="btn primary">Send message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Shaikh Inayat<span class="accent">.</span></strong>
+      <p>Backend Developer · B.Tech CSE · Graduating 2027</p>
+    </div>
+    <a href="https://github.com/ShaikhInayat1" target="_blank" rel="noopener">https://github.com/ShaikhInayat1</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
